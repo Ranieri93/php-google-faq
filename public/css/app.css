@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #3c4043;
+  font-family: "Google Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3c4043;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 1100px;
+  height: 100%;
+}
+
+.lg-container {
+  width: 1600px;
+  height: 100%;
+}
+
+.sm-container {
+  width: 860px;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+.f-dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.f-dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.j-cont-cent {
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.j-cont-sp-around {
+  justify-content: space-around;
+}
+
+.j-cont-sp-between {
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.j-cont-f-start {
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+}
+
+.j-con-f-end {
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.a-it-cent {
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  height: 100px;
+}
+
+header img {
+  padding: 10px 15px;
+}
+
+header span {
+  font-weight: 400;
+}
+
+#header-top {
+  padding-top: 10px;
+}
+
+.nav-bottom {
+  margin-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+
+#left-side-nav ul {
+  list-style: none;
+}
+
+#left-side-nav ul li {
+  margin: 0 20px;
+}
+
+#right-side-nav a {
+  padding-right: 40px;
+}
+
+.wrapper-faq {
+  padding: 3rem 0;
+}
+

@@ -1,0 +1,32 @@
+header {
+    height: 100px;
+    img {
+        padding: 10px 15px;
+    }
+    span {
+        font-weight: 400;
+    }
+}
+#header-top {
+    padding-top: 10px;
+}
+.nav-bottom {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+}
+
+#left-side-nav {
+    ul {
+        list-style: none;
+        li {
+            margin: 0 20px;
+        }
+    }
+}
+
+#right-side-nav {
+    a {
+        padding-right: 40px;
+    }
+}
